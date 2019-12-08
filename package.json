@@ -1,7 +1,7 @@
 {
-  "name": "@mokkapps/npm-business-card",
-  "version": "1.0.0",
-  "description": "A npm business card for Michael Hoffmann (@mokkapps)",
+  "name": "mokkapps",
+  "version": "1.2.0",
+  "description": "Michael Hoffmann (@mokkapps)'s business card",
   "main": "/bin/card.js",
   "bin": {
     "mokkapps": "./bin/card.js"
@@ -26,7 +26,7 @@
     "npx card",
     "business card"
   ],
-  "author": "Michael Hoffmann <michael.hoffmann@mokkapps.de> (https://mokkapps.de)",
+  "author": "Michael Hoffmann (@mokkapps)'s business card",
   "license": "MIT",
   "files": [
     "bin/card.js",
@@ -40,8 +40,8 @@
   "bugs": {
     "url": "https://github.com/mokkapps/npm-business-cards/issues"
   },
-  "dependencies": {},
-  "publishConfig": {
-    "registry": "https://npm.registry.github.com/"
+  "dependencies": {
+    "boxen": "^4.1.0",
+    "chalk": "^3.0.0"
   }
 }
