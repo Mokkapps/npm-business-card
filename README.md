@@ -1,4 +1,5 @@
-<img alt="npm" src="https://img.shields.io/npm/v/mokkapps">
+[![NPM version](https://img.shields.io/npm/v/mokkapps.svg?style=flat)](https://www.npmjs.com/package/mokkapps) [![NPM downloads](https://img.shields.io/npm/dm/mokkapps.svg?style=flat)](https://npmjs.org/package/mokkapps)
+
 
 This is my npm business card
 
