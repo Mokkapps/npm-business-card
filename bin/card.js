@@ -18,18 +18,20 @@ const options = {
 const data = {
   name: chalk.white('Michael Hoffmann /'),
   handle: chalk.red('Mokkapps'),
-  work: chalk.white('Senior Freelance Software Developer'),
-  twitter: chalk.red('twitter.com/mokkapps'),
-  github: chalk.red('github.com/mokkapps'),
+  work: chalk.white('   Senior Freelance Software Developer'),
+  twitter: chalk.red(' twitter.com/mokkapps'),
+  github: chalk.red('  github.com/mokkapps'),
+  devto: chalk.red('   dev.to/mokkapps'),
   instagram: chalk.red('instagram.com/mokkapps'),
-  web: chalk.red('mokkapps.de'),
+  web: chalk.red('     mokkapps.de'),
   npx: chalk.white('npx mokkapps'),
-  labelWork: chalk.white.bold('      Work:'),
-  labelTwitter: chalk.white.bold('   Twitter:'),
-  labelGitHub: chalk.white.bold('    GitHub:'),
-  labelInstagram: chalk.white.bold('  Instagram:'),
-  labelWeb: chalk.white.bold('       Web:'),
-  labelCard: chalk.white.bold('      Card:'),
+  labelWork: chalk.white.bold('Title:'),
+  labelDevTo: chalk.white.bold('Dev.to:'),
+  labelTwitter: chalk.white.bold('Twitter:'),
+  labelGitHub: chalk.white.bold('GitHub:'),
+  labelInstagram: chalk.white.bold('Instagram:'),
+  labelWeb: chalk.white.bold('Web:'),
+  labelCard: chalk.white.bold('Card:'),
 }
 
 // Actual strings we're going to output
@@ -39,6 +41,7 @@ const working = `${data.labelWork}  ${data.work}`
 const twittering = `${data.labelTwitter}  ${data.twitter}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const instagraming = `${data.labelInstagram} ${data.instagram}`
+const devTo = `${data.labelDevTo} ${data.devto}`
 const webing = `${data.labelWeb}  ${data.web}`
 const carding = `${data.labelCard}  ${data.npx}`
 
@@ -54,6 +57,8 @@ const output =
   githubing +
   newline +
   instagraming +
+  newline +
+  devTo +
   newline +
   webing +
   newline +
